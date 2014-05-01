@@ -21,6 +21,7 @@
 		6359958C19123DF20029ADE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6359956E19123DF20029ADE6 /* UIKit.framework */; };
 		6359959419123DF20029ADE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6359959219123DF20029ADE6 /* InfoPlist.strings */; };
 		6359959619123DF20029ADE6 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359959519123DF20029ADE6 /* Git_TestTests.m */; };
+		635995A1191244CF0029ADE6 /* KJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 635995A0191244CF0029ADE6 /* KJTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6359959119123DF20029ADE6 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		6359959319123DF20029ADE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6359959519123DF20029ADE6 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		6359959F191244CF0029ADE6 /* KJTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTest.h; sourceTree = "<group>"; };
+		635995A0191244CF0029ADE6 /* KJTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		6359955E19123DF20029ADE6 = {
 			isa = PBXGroup;
 			children = (
+				6359959F191244CF0029ADE6 /* KJTest.h */,
+				635995A0191244CF0029ADE6 /* KJTest.m */,
 				6359957019123DF20029ADE6 /* Git Test */,
 				6359958F19123DF20029ADE6 /* Git TestTests */,
 				6359956919123DF20029ADE6 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635995A1191244CF0029ADE6 /* KJTest.m in Sources */,
 				6359958119123DF20029ADE6 /* KJViewController.m in Sources */,
 				6359957719123DF20029ADE6 /* main.m in Sources */,
 				6359957B19123DF20029ADE6 /* KJAppDelegate.m in Sources */,
